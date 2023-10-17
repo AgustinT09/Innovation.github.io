@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.logo img {
+    width: 100px; /* Ajusta el ancho de tu logo */
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.auth a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.logo {
+    max-height: 50px; /* Ajusta el tamaño del logotipo según tus necesidades */
+}
+nav ul {
+    flex-direction: column;
+    align-items: center;
+}
+
+.auth {
+    margin-top: 10px;
+    text-align: center;
+}
+.carousel-item img {
+    width: 80%;
+    height: auto;
+    display: block; /* Añadir esta propiedad para centrar la imagen horizontalmente */
+    margin: 0 auto; /* Añadir esta propiedad para centrar la imagen horizontalmente */
+}
+.carousel-text-box {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    color: #fff; /* Color de texto blanco */
+    padding: 15px; /* Espacio alrededor del texto */
+    position: absolute; /* Posición absoluta para superponer el texto en la imagen */
+    bottom: 0; /* Alineación en la parte inferior */
+    width: 100%; /* Ancho completo del carrusel */
+}
+
+
